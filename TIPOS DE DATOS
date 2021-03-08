@@ -1,0 +1,62 @@
+package topicos.de.programacion;
+
+/**
+ *
+ * @author BaruchReyes
+ */
+public class TIPOS_DE_DATOS {
+
+    public static void main(String[] args) {
+
+        /*AQUI SOLO MOSTRAREMOS LOS TIPOS DE DATOS CON UN VALOR 
+ PREVIAMENTE ASIGNAGO LO CUAL SE PUEDE INTERPRETAR COMO
+HACER VARIABLES A CONSTANTES*/
+        ////////////////////BLOQUE DE VARIABLES / CONSTANTES///////////////////
+        //BYTE: Es un tipo de dato que almacena valores entre -128 a 127
+        byte num1 = 127;
+
+        // SHORT: Representa un tipo de dato de 8 bits y almacena datos  entre -32.768 a 32.767
+        //AQUI SE HACE UN CAST PARA QUE LO TOME EL VALOR COMO DE TIPO SHORT
+        short num2 = (short) 32.767;
+
+        //INT : Es un tipo de dato que solo almacena numeros enteros    
+        int numero3 = 10;
+
+        // LONG: Tipo de dato de 64 bits  que almacena valores entre  -2^63 a 2^63-1 
+        // Igual que en el anterior se hace un cast para que se le asigne el valor
+        long numero4 = (long) -2.62;
+
+        //FLOAT: Tipo de dato flotante de 32 bits almacena datos con punto decimal
+        float numero5 = 3.1416f;
+
+        // DOUBLE: Es un tipo de dato para almacenar números en coma flotante con doble precisión de 64 bits.
+        double numero6 = 17.2;
+
+        //BOOLEAN: Tipo de dato el cual retorna solo 2 estados "TRUE" O "FALSE"
+        boolean numero7 = true;
+        boolean numero8 = false;
+
+        //CHAR: Tipo de dato el cual sirve para almacenar un caracter simple
+        char letra = 'B';
+
+        //STRING: Almecena cadenas que contengan Texto
+        String frase = "Hola elefante";
+
+        
+        
+        //AQUI SIMPLEMENTE CONCATENAMOS UNA FRASE CON UNA VARIABLE
+        
+        System.out.println("Los tipos de datos en JAVA son: ");
+        System.out.println("1.Byte:" + " " + num1);
+        System.out.println("2.Short:" + " " + num2);
+        System.out.println("3.Int:" + " " + numero3);
+        System.out.println("4.Long:" + " " + numero4);
+        System.out.println("5.Float:" + " " + numero5);
+        System.out.println("6.Double:" + " " + numero6);
+        System.out.println("7.Boolean(True)" + " " + numero7);
+        System.out.println("8.Boolean (False):" + " " + numero8);
+        System.out.println("9.Char:" +  " " +letra);
+        System.out.println("10.String:" + " " + frase);
+
+    }
+}
